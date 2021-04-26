@@ -138,8 +138,10 @@ public class AnnotationBeanNameGeneratorTests {
 	}
 
 
-	@Component("walden")
+//	@Component("walden")
 	private static class ComponentWithName {
+		private String id;
+		private String name;
 	}
 
 	@Component(" ")

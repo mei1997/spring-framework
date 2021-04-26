@@ -42,7 +42,7 @@ public class BeanInfoTests {
 		Integer value = 1;
 
 		bw.setPropertyValue("value", value);
-		assertThat(value).as("value not set correctly").isEqualTo(bean.getValue());
+		assertThat(value).as("value not set correctly").isEqualTo(3);
 
 		value = 2;
 		bw.setPropertyValue("value", value.toString());
